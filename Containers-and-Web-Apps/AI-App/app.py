@@ -49,8 +49,7 @@ def chat():
                 "content": user_message
             },
         ],
-        max_tokens=500,
-        temperature=0.7,
+        max_completion_tokens=8192,
         model=AZURE_OPENAI_MODEL_NAME,
     )
 
